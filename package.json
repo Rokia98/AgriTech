@@ -21,7 +21,9 @@
     "@angular/platform-server": "^19.0.0",
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.0.2",
+    "bootstrap": "^5.3.3",
     "express": "^4.18.2",
+    "primeng": "^17.18.12",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
@@ -40,5 +42,13 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.6.2"
-  }
+  },
+  "styles": [
+    "src/styles.scss",
+    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "node_modules/ngx-toastr/toastr.css"
+  ]
+
 }
